@@ -24,7 +24,7 @@ clap = { workspace = true }
 jsonrpsee = { workspace = true, features = ["macros", "http-client", "server"] }
 serde = { workspace = true }
 tempfile = { workspace = true }
-trybuild = "1.0"
+trybuild = { workspace = true }
 
 sov-modules-api = { path = "../sov-modules-api" }
 sov-state = { path = "../sov-state" }

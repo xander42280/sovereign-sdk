@@ -27,7 +27,7 @@ proc-macro2 = "1.0"
 borsh = { workspace = true }
 
 [dev-dependencies]
-trybuild = "1.0"
+trybuild = { workspace = true }
 sov-zk-cycle-macros = { path = "../../utils/zk-cycle-macros" }
 sov-zk-cycle-utils = { path = "../../utils/zk-cycle-utils" }
 risc0-zkvm = { workspace = true, default-features = false, features = ["std"] }
